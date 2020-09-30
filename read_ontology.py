@@ -4,7 +4,7 @@ from contextlib import suppress
 onto_path.append("/oe-ontology")
 
 
-onto = get_ontology("https://raw.githubusercontent.com/TRADOC-G2/oe-ontology/master/OEOntology.owl").load()
+onto = get_ontology("https://raw.githubusercontent.com/shailesh1210/ontologies/master/oe-onto/OEOntology.owl").load()
 
 print("Classes are loading!")
 
